@@ -1,0 +1,8 @@
+<h2>Add Image With Text to Extract the Text</h2>
+<div>
+<!-- ocr.component.html -->
+    <input type="file" (change)="onFileSelected($event)" accept="image/*">
+    <p>Extracted Text:</p>
+    <textarea rows="10" cols="50">{{extractedText}}</textarea>
+</div>
+  
